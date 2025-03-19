@@ -1,0 +1,38 @@
+# API Framework
+fastapi==0.110.0
+uvicorn==0.27.1
+pydantic==2.6.1
+pydantic-settings==2.1.0
+
+# Database
+sqlalchemy==2.0.27
+aiosqlite==0.19.0
+alembic==1.13.1
+
+# AI Provider APIs
+openai==1.12.0
+anthropic==0.18.1
+google-generativeai==0.3.1
+huggingface-hub==0.20.3
+
+# HTTP
+httpx==0.26.0
+requests==2.31.0
+
+# Security
+python-jose==3.3.0
+passlib==1.7.4
+bcrypt==4.1.2
+python-multipart==0.0.7
+
+# Environment and Configuration
+python-dotenv==1.0.1
+pyyaml==6.0.1
+
+# Utilities
+loguru==0.7.2
+tenacity==8.2.3
+cachetools==5.3.2
+
+# Frontend (if not using separate frontend framework)
+jinja2==3.1.3
