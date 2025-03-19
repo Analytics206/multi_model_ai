@@ -3,7 +3,7 @@ import logging
 import json
 import asyncio
 import cohere
-from cohere.error import CohereAPIError, CohereConnectionError, CohereError
+
 
 from .base import BaseProvider
 

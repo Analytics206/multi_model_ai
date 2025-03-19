@@ -4,7 +4,6 @@ import json
 import asyncio
 import google.generativeai as genai
 from google.generativeai.types import HarmBlockThreshold, HarmCategory
-from google.generativeai.types.content_types import Part
 from google.api_core.exceptions import ResourceExhausted, ServiceUnavailable, GoogleAPIError
 
 from .base import BaseProvider
@@ -339,7 +338,3 @@ class GoogleProvider(BaseProvider):
             error_dict["retry_after"] = 60  # Default retry after 60 seconds
         
         return error_dict
-        """Generate a text completion from Google Gemini.
-        
-        Args:
-            model: The
